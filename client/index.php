@@ -20,10 +20,21 @@
 		<link rel="stylesheet" type="text/css" href="datatables/dataTables.bootstrap.min.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-dark bg-danger mb-5">
-			<span class="navbar-brand mb-0 ml-5 h1">Aplikasi Data Darah</span>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-5">
+			<a class="navbar-brand mb-0 ml-5 h1 mr-5" href="#">Aplikasi Stok Darah</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link ml-5" href="../server/read.php">Web Service(JSON API GET Data)<span class="sr-only">(current)</span></a>
+				</li>
+			</div>
 		</nav>
-		<div class="container">
+		
+		<div class="container mt-4">
 			<div class="row mb-5">
 				<div class="col-md-10">
 					<h4>Stok Darah PMI</h4>

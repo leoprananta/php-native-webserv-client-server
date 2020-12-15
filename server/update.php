@@ -23,6 +23,7 @@
         if($updateproses){
             $response['code'] = 1;
             $response['message'] = "Berhasil";
+            header('Location: http://localhost:8080/darah/client/');
         }else{
             $response['code'] = 0;
             $response['message'] = "Gagal";
