@@ -22,8 +22,8 @@
 				<div class="col-md-12 ">
                     <form action="../server/create.php" method="POST" id="form">
                         <div class="form-group">
-                            <label for="">Kota/Kabupaten</label>
-                            <input type="text" class="form-control col-md-6" id="kabupaten" name="kabupaten" placeholder="Masukkan nama Kota/Kabupaten">
+                            <label for="">Kabupaten/Kota</label>
+                            <input type="text" class="form-control col-md-6" id="kabupaten" name="kabupaten" placeholder="Masukkan nama Kabupaten/Kota">
                         </div>
                         <div class="form-group">
                             <label for="">Stok Darah A+</label>

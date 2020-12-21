@@ -35,7 +35,7 @@ function http_request($url){
 				<div class="col-md-12 ">
                     <form action="../server/update.php" method="POST" id="form">
                         <div class="form-group">
-                            <label for="">Kota/Kabupaten</label>
+                            <label for="">Kabupaten/Kota</label>
                             <input type="text" class="form-control col-md-6" id="kabupaten" name="kabupaten" value="<?= $data[0]["kabupaten"]?>">
                         </div>
                         <div class="form-group">

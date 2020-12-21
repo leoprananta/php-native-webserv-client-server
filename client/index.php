@@ -49,7 +49,7 @@
 						<thead>
 							<tr>
 								<th style="width:2%">No.</th>
-								<th style="width:20%">Kabupaten</th>
+								<th style="width:20%">Kabupaten/Kota</th>
 								<th style="width:5%">A+</th>
 								<th style="width:5%">A-</th>
 								<th style="width:5%">B+</th>
@@ -107,7 +107,7 @@
 								<td>
 									<form action="../server/delete.php" method="POST" id="form">
 										<input type="hidden" id="kabupaten" name="kabupaten" value="<?= $data["kabupaten"] ?>">
-										<button type="submit" class="btn btn-danger btn-sm">Hapus</button>
+										<button type="submit" onclick="return confirm('Hapus data <?= $data["kabupaten"] ?>?')" class="btn btn-danger btn-sm">Hapus</button>
 									</form> 
 								</td>
                             </tr>
